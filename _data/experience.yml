@@ -1,4 +1,11 @@
 - role: Pre Fellowship Fellow
   company: MLH Fellowship
+  link: "https://fellowships.mlh.io"
   dates: Summer 2021
+  logo: fellowship.svg
+
+- role: Github Externship Intern
+  company: Digibeings
+  link: "https://github-externships.github.io/externship/result.html"
+  dates: July 2021 - September 2021
   logo: fellowship.svg

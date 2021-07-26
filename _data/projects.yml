@@ -1,6 +1,43 @@
 - title: Task Tracker
-  event: MLH Fellowship Pre Fellowship Project
+  tagline: MLH Fellowship Pre Fellowship Project
   date: Summer 2021  - Batch 3.5
   page-name: project
   logo: time-tracker.jpeg
   project-description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+  link: "https://github.com/adata111/jarvish"
+
+- title: Jarvish
+  tagline: A linux shell built using C
+  date: Fall 2020
+  logo: time-tracker.jpeg
+  project-description: This is a Linux shell made using C. It supports a lot of the commands that work in the Ubuntu shell, Bash. It also has some custom commands and features (like displaying exit codes after each command)
+  link: "https://github.com/adata111/jarvish"
+
+
+- title: Daily Hack
+  tagline: A multi-purpose mobile app to help users plan daily activities
+  date: June 2020 - August 2020
+  logo: time-tracker.jpeg
+  project-description: This is a full-stack multipurpose app built using React Native. Created in approximately 50 days as a part of IIIT-H E-Cell's SummerUp 2020, this is a Walmart prize winning submission. It provides Daily diary, expense manager, events reminder, etc. 
+  link: "https://github.com/adata111/DailyHack"
+
+- title: Brick Carnival
+  tagline: A terminal version of the classic brick breaker game
+  date: February 2021
+  logo: time-tracker.jpeg
+  project-description: This a terminal-based arcade game in Python3, inspired by the classic brick-breaker game. The player will be using a paddle with a bouncing ball to smash a wall of bricks. Different sounds are played when different events (like life lost, brick collision, wall collision, laser shoot, etc.) occur. 
+  link: "https://github.com/adata111/brick-carnival"
+
+- title: Headless Hunt
+  tagline: A full-stack MERN application imitating the basic functionalities of linkedIn
+  date: January 2021
+  logo: time-tracker.jpeg
+  project-description: The website, built using React, is for both job applicants and recruiters. It includes sorting, filtering, searching and other basic features to browse through jobs. Recruiters can shortlist and accept Applicants based on Resume. There is also a google signup option. 
+  link: "https://github.com/adata111/job-application-portal"
+  
+- title: Between Us
+  tagline: A 2D maze game built using OpenGL
+  date: February 2021
+  logo: time-tracker.jpeg
+  project-description: This is a simplified, single player version of Among Us. This 2D game involves a line maze and the player has to complete 2 tasks and reach the end of the maze before reactor meltdown and before the imposter catches him in order to win.  
+  link: "https://github.com/adata111/BetweenUs"

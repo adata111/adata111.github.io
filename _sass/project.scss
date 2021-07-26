@@ -62,7 +62,7 @@ $image-space: 35%;
   margin-bottom: 20px;
 }
 
-.project-card > .content > img {
+.project-card > .content > a > img {
   margin-right: 50%;
   transform: translateX(50%);
   height: 40px;
@@ -103,6 +103,9 @@ $image-space: 35%;
   animation: sliding 0.3s;
   animation-delay: 0.3s;
   animation-fill-mode: forwards;
+}
+.project-card > .content > .linkdiv > a:hover{
+  color:white;
 }
 
 @keyframes sliding {
