@@ -1,6 +1,6 @@
 $image-space: 35%;
 
-.project-card {
+.long-card {
   margin: 20px 30px;
   background-color: white;
   border-radius: 0.375rem;
@@ -13,7 +13,7 @@ $image-space: 35%;
   align-items: center;
 }
 
-.project-card > .image {
+.long-card > .image {
   border-top-left-radius: 0.375rem;
   border-bottom-left-radius: 0.375rem;
   position: absolute;
@@ -23,7 +23,7 @@ $image-space: 35%;
   width: $image-space;
   transition: 0.5s all;
 }
-.project-card > .image > img {
+.long-card > .image > img {
   border-top-left-radius: 0.375rem;
   border-bottom-left-radius: 0.375rem;
   width: 100%;
@@ -33,7 +33,7 @@ $image-space: 35%;
   position: relative;
 }
 
-.project-card > .image > .overlay {
+.long-card > .image > .overlay {
   position: absolute;
   top: 0;
   left: 0;
@@ -41,12 +41,12 @@ $image-space: 35%;
   opacity: 0.5;
 }
 
-.project-card > .info {
+.long-card > .info {
   margin-left: $image-space;
   transition: 0.5s all;
 }
 
-.project-card > .content {
+.long-card > .content {
   display: none;
   width: 100%;
   margin-top: 20px;
@@ -58,11 +58,11 @@ $image-space: 35%;
   opacity: 0;
 }
 
-.project-card > .content > .text {
+.long-card > .content > .text {
   margin-bottom: 20px;
 }
 
-.project-card > .content > a > img {
+.long-card > .content > a > img {
   margin-right: 50%;
   transform: translateX(50%);
   height: 40px;
@@ -70,42 +70,42 @@ $image-space: 35%;
   object-fit: contain;
 }
 
-.project-card:hover {
+.long-card:hover {
   box-shadow: 10px 10px 20px -15px rgba(0, 0, 0, 0.79);
   -webkit-box-shadow: 10px 10px 20px -15px rgba(0, 0, 0, 0.79);
   -moz-box-shadow: 10px 10px 20px -15px rgba(0, 0, 0, 0.79);
 }
 
-.project-card:hover > .image {
+.long-card:hover > .image {
   width: 100%;
 }
 
-.project-card:hover > .image > img {
+.long-card:hover > .image > img {
   border-radius: 0.375rem;
-  opacity: 0.8;
+  opacity: 0.5;
 }
 
-.project-card:hover > .image > .overlay {
+.long-card:hover > .image > .overlay {
   width: 100%;
   border-radius: 0.375rem;
   height: 100%;
 }
 
-.project-card:hover > .info {
+.long-card:hover > .info {
   margin: 0;
   width: 100%;
   z-index: 2;
   //   color: white;
 }
 
-.project-card:hover > .content {
+.long-card:hover > .content {
   display: block;
   animation: sliding 0.3s;
   animation-delay: 0.3s;
   animation-fill-mode: forwards;
 }
-.project-card > .content > .linkdiv > a:hover{
-  color:white;
+.long-card > .content > .linkdiv > a:hover{
+  color:#23a6d5;
 }
 
 @keyframes sliding {

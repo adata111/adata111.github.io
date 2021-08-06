@@ -2,14 +2,23 @@
 <h2 id="expdiv">Work Experience</h2>
 <div class="card-container">
   {% for item in site.data.experience %}
-  <div class="card">
-    <div class="icon">
+  <div class="experience-card long-card">
+    <div class="image">
       <img src="./assets/img/experience/{{ item.logo }}" />
+      <div class="overlay"></div>
     </div>
     <div class="info">
       <p class="title">{{ item.role }}</p>
-      <p class="location">{{ item.company }}</p>
+      <p class="tagline">{{ item.company }}</p>
       <p class="dates">{{ item.dates }}</p>
+    </div>
+    <div class="content">
+      <div class="text">{{ item.work-description }}<br /></div>
+      <div class="linkdiv" style="float:right; padding-right:20px;">
+      <a href={{item.link}} target="_blank" style="font-size: 100px; ">
+      >
+      </a>
+    </div>
     </div>
   </div>
   {% endfor %}

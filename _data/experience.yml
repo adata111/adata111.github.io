@@ -3,9 +3,11 @@
   link: "https://fellowships.mlh.io"
   dates: Summer 2021
   logo: fellowship.svg
+  work-description: Worked in teams to create personal projects over a period of 4 weeks
 
-- role: Github Externship Intern
+- role: Github Extern
   company: Digibeings
   link: "https://github-externships.github.io/externship/result.html"
   dates: July 2021 - September 2021
-  logo: fellowship.svg
+  logo: digibeings.png
+  work-description: Made an AI friend chatbot called Sara, that can help students handle mental health issues and can carry out friendly conersations.

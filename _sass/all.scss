@@ -6,7 +6,7 @@
 @import 'page';
 @import 'contact';
 @import 'footer';
-@import 'project';
+@import 'long_card';
 @import 'scrollbutton';
 
 ::-webkit-scrollbar-track{
@@ -37,28 +37,31 @@
   background-color: #121212 !important;
   color: #fff;
   border: 1px solid #fff;
+  a{
+  	color: #fff !important; 
+  }
 }
-.dark-mode .project-card {
+.dark-mode .long-card {
   background-color: #121212 !important;
   color: #fff;
   border: 1px solid #fff;
 }
 
-.dark-mode .project-card > .image > .overlay {
+.dark-mode .long-card > .image > .overlay {
   background-color: #121212 !important;
   color: #fff;
   border: 1px solid #fff;
 }
 
-.dark-mode .project-card:hover > .content {
+.dark-mode .long-card:hover > .content {
   color: #fff;
 }
 
-.dark-mode .project-card > .content > .linkdiv > a{
+.dark-mode .long-card > .content > .linkdiv > a{
   color:white;
 }
-.dark-mode .project-card > .content > .linkdiv > a:hover{
-  color:black;
+.dark-mode .long-card > .content > .linkdiv > a:hover{
+  color:#1d539f;
 }
 
 .dark-mode .profile,
@@ -133,7 +136,7 @@ h2 {
   text-align: center;
 }
 
-.card {
+.card,{
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -142,6 +145,16 @@ h2 {
   border-radius: 0.375rem;
   padding: 1.5em;
   font-size: 1.2em;
+
+  a:hover{
+  	color: inherit !important;
+  }
+}
+.indiv {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: none;
 }
 
 .card:hover {

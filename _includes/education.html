@@ -1,11 +1,11 @@
 <a id="education"></a>
 <h2 id="edudiv">Education</h2>
 <div class="card-container">
-  <div class="card">
-    <div class="icon1">
+  <div class="card" >
       <a href="https://iiit.ac.in" target="_blank">
+  <div class="indiv">
+    <div class="icon1">
       <img src="./assets/img/education/iiit_logo.png" />
-      </a>
     </div>
     <div class="info">
       <p class="title">B.Tech CSE and MS by Research in CSE</p>
@@ -13,12 +13,15 @@
       <p class="dates">2019-2024</p>
     </div>
   </div>
-  {% for item in site.data.education %}
-  <div class="card">
-    <div class="icon">
-      <a href={{ item.link }} target="_blank">
-      <img src="./assets/img/education/{{ item.logo }}" />
       </a>
+      </div>
+  {% for item in site.data.education %}
+  
+  <div class="card" >
+      <a href={{ item.link }} target="_blank">
+  <div class="indiv">
+    <div class="icon">
+      <img src="./assets/img/education/{{ item.logo }}" />
     </div>
     <div class="info">
       <p class="title">{{ item.course }}</p>
@@ -26,5 +29,7 @@
       <p class="dates">{{ item.dates }}</p>
     </div>
   </div>
+      </a>
+      </div>
   {% endfor %}
 </div>
