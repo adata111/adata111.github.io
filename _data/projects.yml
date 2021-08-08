@@ -1,18 +1,9 @@
-- title: Task Tracker
-  tagline: MLH Fellowship Pre Fellowship Project
-  date: Summer 2021  - Batch 3.5
-  page-name: project
-  logo: time-tracker.jpeg
-  project-description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-  link: "https://github.com/adata111/jarvish"
-
 - title: Jarvish
   tagline: A linux shell built using C
   date: Fall 2020
   logo: time-tracker.jpeg
   project-description: This is a Linux shell made using C. It supports a lot of the commands that work in the Ubuntu shell, Bash. It also has some custom commands and features (like displaying exit codes after each command)
   link: "https://github.com/adata111/jarvish"
-
 
 - title: Daily Hack
   tagline: A multi-purpose mobile app to help users plan daily activities
@@ -41,3 +32,10 @@
   logo: time-tracker.jpeg
   project-description: This is a simplified, single player version of Among Us. This 2D game involves a line maze and the player has to complete 2 tasks and reach the end of the maze before reactor meltdown and before the imposter catches him in order to win.  
   link: "https://github.com/adata111/BetweenUs"
+  
+- title: Skyforce
+  tagline: A 3D space game built using ThreeJS
+  date: April 2021
+  logo: time-tracker.jpeg
+  project-description: This is a simplified version of Skyforce game. The player has to control a spacecraft and collect coins and shoot down enemy jets to win points. Beware of colliding with enemy jets and sudden enemy missiles! The game includes 3D models built using Blender.  
+  link: "https://github.com/adata111/skyforce"
