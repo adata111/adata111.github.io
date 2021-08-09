@@ -1,67 +1,10 @@
-# Portfolio Template
+# My Portfolio
 
-This is a Jekyll website template designed for Pre Fellowship Fellows. During the Pre Fellowship, you'll build a project
-
-[![Netlify Status](https://api.netlify.com/api/v1/badges/97877b3e-9f36-4939-a24c-0b622f923d50/deploy-status)](https://app.netlify.com/sites/mlh-fellowship-portfolio/deploys)
-
-
-## Make your own!
-
-1. Use the Template button.
-2. Update `_config.yml` to contain your information.
-    1. Change `url` to the URL you'll be hosting it at
-    2. Make sure it has the /
-3. Use something like Netlify or GitHub Pages to deploy (note, this only works on username.github.io, not username.github.io/repo-name)
+This is a Jekyll website.
 
 ## Add your portfolio
 
 Head to `_data` and fill out either `projects.yml`, `experience.yml` and `education.yml`.
-
-Project example.
-```yaml
-- title: Machine Learning Project
-  event: MLH Fellowship Pre Fellowship - Batch 3.5
-  date: Fall 2020
-```
-
-Experience example.
-```yaml
-- role: Pre Fellowship Fellow
-  company: MLH Fellowship
-  dates: Summer 2021
-  logo: fellowship.svg
-```
-
-Education example.
-```yaml
-- course: Pre Fellowship Fellow
-  institute: MLH Fellowship
-  dates: Summer 2021
-  logo: fellowship.svg
-```
-## Add project posts
-
-1. Make a new `.md` file inside of `projects`.
-2. Add the header to your markdown file (see below) and change the title to the name of your blog post.
-3. Write your project page! Can be a README from GitHub or your Devpost page.
-4. Add the `page-name` field to your `projects.yml` (see below).
-
-Top of post markdown file post.
-```
----
-title: Project
-layout: page
----
-```
-
-`projects.yml` with the `page-name` field.
-
-```yaml
-- title: Machine Learning Project
-  event: MLH Fellowship Pre Fellowship - Batch 3.5
-  date: Summer 2021
-  page-name: project
-```
 
 ## Add contact form email
 1. Create a formspree account here: https://formspree.io/register 
@@ -94,31 +37,27 @@ If you get stuck in any of these steps, refer [here](https://support.google.com/
 Head to `_data` and fill out either `social_media.yml`. Here is an example for your reference: 
 
 ```yaml
-- link: tel:+19876543210
-  class: fas fa-phone-square-alt
-
-- link: mailto:fellowship@mlh.io
+- link: mailto:email_id
   class: fas fa-envelope
 
 - link: https://twitter.com/
   class: fab fa-twitter-square
 
-- link: https://linkedin.com/
+- link: https://www.linkedin.com/in/username
   class: fab fa-linkedin
 
-- link: https://github.com/MLH-Fellowship
+- link: https://github.com/username
   class: fab fa-github
+
 ```
 
 Replace the links with your respective social media links in the following order: 
 
-1. Phone Number
-2. Mail
-3. Twitter
-4. LinkedIn
-5. GitHub
+1. Mail
+2. Twitter
+3. LinkedIn
+4. GitHub
 
-Note - Please do not change anything in the `class` field. 
 
 ## Development
 
