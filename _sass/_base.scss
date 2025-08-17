@@ -24,6 +24,7 @@ hr {
 }
 
 table {
+  background-color: lightgray;
   td,
   th {
     font-size: 1rem;
@@ -50,7 +51,7 @@ table.table a {
 }
 
 .table-dark {
-  background-color: transparent;
+  background-color: rgb(23, 36, 36);
   &.table-bordered {
     border: 1px solid var(--global-divider-color) !important;
   }

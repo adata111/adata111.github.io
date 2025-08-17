@@ -1,8 +1,8 @@
 ---
 layout: post
-date: 2016-01-15 07:59:00-0400
+date: 2024-06-03
 inline: true
 related_posts: false
 ---
 
-A simple inline announcement with Markdown emoji! :sparkles: :smile:
+Defended my MS thesis <a href='https://web2py.iiit.ac.in/research_centres/publications/view_publication/mastersthesis/1434'>Navigating the Multiverse: Enhancing Robotic Assistance through Multi-Object Navigation and Object Location Optimization</a>.
