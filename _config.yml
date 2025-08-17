@@ -135,7 +135,7 @@ kramdown:
       start_line: 1
 
 # Includes & excludes
-include: ["_pages/about.md", "_pages/publications.md", "_scripts"]
+include: ["_pages/about.md", "_pages/publications.md", "_pages/news.md", "_scripts"]
 exclude:
   - assets/jupyter/blog.ipynb
   - bin/
