@@ -16,16 +16,23 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/publications/";
           },
-        },{id: "news-a-simple-inline-announcement",
-          title: 'A simple inline announcement.',
+        },{id: "news-my-first-paper-as-a-first-co-author-on-multi-object-navigation-accepted-at-ieee-icra-2023",
+          title: 'My first paper as a first co-author on Multi-Object Navigation accepted at IEEE...',
           description: "",
-          section: "News",},{id: "news-a-long-announcement-with-details",
-          title: 'A long announcement with details',
+          section: "News",},{id: "news-attended-and-presented-our-work-on-multi-object-navigation-at-ieee-icra-2023-in-london-uk",
+          title: 'Attended and presented our work on Multi-Object Navigation at IEEE ICRA 2023 in...',
           description: "",
-          section: "News",handler: () => {
-              window.location.href = "/news/announcement_2/";
-            },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
-          title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
+          section: "News",},{id: "news-attended-and-presented-our-work-on-llm-based-task-planning-at-ieee-icra-2024",
+          title: 'Attended and presented our work on LLM-based task planning at IEEE ICRA 2024....',
+          description: "",
+          section: "News",},{id: "news-defended-my-ms-thesis-navigating-the-multiverse-enhancing-robotic-assistance-through-multi-object-navigation-and-object-location-optimization",
+          title: 'Defended my MS thesis Navigating the Multiverse: Enhancing Robotic Assistance through Multi-Object Navigation...',
+          description: "",
+          section: "News",},{id: "news-graduated-from-iiit-hyderabad-with-b-tech-ms-by-research-in-computer-science-and-engineering",
+          title: 'Graduated from IIIT Hyderabad with B.Tech + MS by Research in Computer Science...',
+          description: "",
+          section: "News",},{id: "news-joined-google-india-as-a-software-engineer",
+          title: 'Joined Google India as a Software Engineer.',
           description: "",
           section: "News",},{
         id: 'social-email',
