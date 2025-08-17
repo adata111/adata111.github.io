@@ -24,8 +24,10 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I’m currently working as a Software Engineer at Google India.
+I’m currently a Software Engineer at Google India.
 
-I hold a B.Tech + MS by Research in Computer Science and Engineering from the <a href="https://www.iiit.ac.in/">International Institute of Information Technology, Hyderabad (IIIT-H)</a>, where I was a researcher at the <a href="https://robotics.iiit.ac.in/">Robotics Research Centre (RRC)</a> under the guidance of <a href="https://faculty.iiit.ac.in/~mkrishna/">Prof. K. Madhava Krishna</a>. I’ve published papers at leading robotics conferences such as <b>IEEE ICRA</b> and <b>RO-MAN</b>, and collaborated with <a href="https://homepages.inf.ed.ac.uk/msridhar/">Prof. Mohan Sridharan</a> from the University of Edinburgh and <a href="https://krrish94.github.io/">Dr. Krishna Murthy Jatavallabhula</a> from MIT CSAIL. My research focuses on advancing <b>Embodied AI</b> — designing agents that use commonsense reasoning to perform household tasks efficiently in dynamic environments.
+My research focuses on advancing <b>Embodied AI</b> — developing intelligent agents capable of commonsense reasoning to perform household tasks effectively in dynamic environments.
 
 I’m especially interested in research at the intersection of <b>robotics</b>, <b>cognitive science</b>, and <b>AI planning</b>. My goal is to bridge the gap between AI systems and human-like reasoning.
+
+I completed my Bachelors and Masters in Computer Science and Engineering at the <a href="https://www.iiit.ac.in/">International Institute of Information Technology, Hyderabad (IIIT-H)</a>, where I was a researcher at the <a href="https://robotics.iiit.ac.in/">Robotics Research Centre (RRC)</a>, advised by <a href="https://faculty.iiit.ac.in/~mkrishna/">Prof. K. Madhava Krishna</a>. I collaborated with <a href="https://homepages.inf.ed.ac.uk/msridhar/">Prof. Mohan Sridharan</a> from the University of Edinburgh and <a href="https://krrish94.github.io/">Dr. Krishna Murthy Jatavallabhula</a> from MIT CSAIL. I’ve published and presented my papers at leading robotics conferences such as <b>IEEE ICRA</b> and <b>RO-MAN</b>. 

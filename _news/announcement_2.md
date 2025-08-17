@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Graduated from IIIT Hyderabad with B.Tech + MS by Research in Computer Science and Engineering
+Graduated from IIIT Hyderabad with Bachelors and Masters in Computer Science and Engineering.
